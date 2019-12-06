@@ -1,0 +1,257 @@
+/*Body*/
+body{
+    background-color: white;
+}
+/*Global*/
+.accent{
+    color: rgb(137, 240, 228);
+}
+
+
+
+/*Navbar*/
+.navbar{
+    color: white;
+    background: #0f0f0f;
+
+}
+.navbar-brand{
+    color: rgb(137, 240, 228);
+}
+.navbar-brand:hover{
+    transform: scale(1.2);
+    color: aqua;
+}
+.nav-item{
+    margin: 0 30px;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+color: rgb(137, 240, 228);
+}
+
+
+
+/*Main Content*/
+.jumbo-col-1{
+    display: flex;
+    align-items: center;
+}
+.jumbo-col-2{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.pulsate-text{
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    background: green;
+}
+.pulsate{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*Card Styles*/
+.card-width{
+    border-radius: 30px;
+    background-color: #0f0f0f;
+    width: 50%;
+}
+.card{
+    margin: auto;
+}
+.card-footer-text{
+    color: white;
+}
+.card-img-top{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+.card-sm{
+    background-color: #069487;
+    height: 300px;
+}
+.card-md{
+    background:  #0cc7b6;
+    height: 300px;
+}
+.card-lg{
+    background-color: rgb(137, 240, 228);
+    height: 300px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+}
+.grow{
+    margin: auto;
+  animation-name: grow-shrink;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+    color: black;
+  }
+@keyframes grow-shrink{
+    0%{
+        transform: scale(1);
+    }
+    16%{
+        transform: scale(1.1);
+    }
+    32%{
+        transform: scale(1);
+    }
+    48%{
+        transform: scale(1);
+    }
+    64%{
+        transform: scale(1.1);
+    }
+    82%{
+        transform: scale(1);
+    }
+   100%{
+       display: hidden;
+   }
+}
+.image-main{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.carousel-item img{
+    filter: brightness(40%);
+    height: 90vh;
+}
+.carousel-caption{
+    bottom: 40%;
+}
+.left{
+    height: 50vh;
+}
+.right{
+    height: 50vh;
+
+}
+.paragraph-container{
+    margin: auto;
+    color: black;
+    width: 300px;
+    height: 200px;
+}
+
+.business-content{
+    width: 100%;
+    height: 300px;
+}
+/*Footer*/
+.footer{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 50vh;
+}
+.footer-logo{
+
+    height: 13vh;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.footer-about-us{
+
+    height: 16vh;
+    width: 100%;
+    margin: 0 20px;
+}
+.contact{
+    height: 13vh;
+    width: 100%;
+}
+.helpful-link{
+    color: rgb(137, 240, 228);
+margin-left:40px;
+}
+.links{
+    margin-top: 24%;
+}
+.footer-contact-title{
+    width: 73%;
+    margin-left:20px;
+}
+.icon-container{
+    width: 73%;
+}
+.fa-phone-alt{
+    align-self: center;
+    margin: 0 20px;
+    font-size: 24px;
+}
+.fa-envelope{
+    align-self: center;
+    margin:  0 20px;
+    font-size: 24px;
+}
+
+.social{
+    margin: 0 5px;
+    font-size: 30px;
+}
+.social-media-container{
+    width: 100%;
+    margin:  0 20px;
+    
+}
+.social-media{
+    width: 100%;
+    margin-top: 24%;
+}
+.social-media-links{
+    margin-top: 7%;
+}
+/********************************************************************************/
+/*About Us Page*/
+
+.about-us{
+    width: 100%;
+    background-image: url("Website1.jpeg");
+    height: 50vh;
+}
+.about-us-content{
+    width: 80%;
+    margin: 50px auto;
+}
+.about-us-box{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.about-us-img-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.about-us-img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+/*********************/
+/*Services*/
+.price{
+    margin-top: 60px;
+}
+.business-content{
+    height: 500px;
+}

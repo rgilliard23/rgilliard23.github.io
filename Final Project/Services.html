@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+
+      <!--  Show this only on mobile to medium screens  -->
+        <a class="navbar-brand d-lg-none" href="#">Navbar</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+      <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
+          
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-text active" href="Index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text" href="AboutUs.html">About Us</a>
+            </li>
+          </ul>
+          
+      <!--   Show this only lg screens and up   -->
+          <a class="navbar-brand d-none d-lg-block" href="Index.html">Navbar</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Services.html">Services</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!--Main Content-->
+    <main class="">
+        
+            <div class="business-content flexbox bg-light">
+                <div class="row d-flex align-items-center">
+                    <div class="col card-services-1">
+                        <div class="card card-sm mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Development</h5>
+                                <p class="card-text">Hire us to develope a fully functional app using one of our premium templates or designing from scratch and letting your creativity take over!</p>
+                                <div class="price">Estimated Price: $50/hour</div>
+                                <button class="btn btn-primary" type="submit">Request Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col flexbox">
+                      <div class="card card-services-1 card-md mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Development</h5>
+                                <p class="card-text">Hire us to develope a fully functional website using one of our premium templates or designing from scratch and letting your creativity take over!</p>
+                                <div class="price">Estimated Price: $30/hour</div>
+                                <button class="btn btn-primary" type="submit">Request Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col flexbox">
+                        <div class="card card-services-1 card-lg mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Joint Development</h5>
+                                <p class="card-text">Hire us to develop both an app and a website for your ideas or businesses.</p>
+                                <div class="price">Estimated Price: $70/hour</div>
+                                <button class="btn btn-primary" type="submit">Request Quote</button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <!--Footer-->
+            <footer class="footer">
+                <div class="row">
+                    <div class="col">
+                      
+                      <div class="footer-logo">
+                        <h1 class="accent">LOGO</h1>
+                      </div>
+                      <div class="footer-about-us">
+                        <h4 class="accent">About Us</h2>
+                        <h5 class="text-white">This is a professional sowftware development company determined to help businesses design their dream websites and applications.</h5>
+                      </div>
+                      <div class="contact">
+                        <div class="footer-contact-title"><h4 class="accent">Contact</h4></div>
+                        <div class="icon-container d-flex"><i class="fas fa-phone-alt accent"></i><h5 class="text-white">336-324-5196 | 843-614-2791</h5></div>
+                        <div class="icon-container d-flex text-white"> <i class="fas fa-envelope accent"></i class="text-white"><h5>linkedvisuals@gmail.com</h5></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="links">
+                        <h3 class="helpful-link accent">Helpful Links</h3>
+                        <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                      </ul>
+                      </div>
+                    </div>
+                  
+                    <div class="col social-media-container">
+                      <div class="social-media">
+                        <h4 class="accent">Social Media</h4>
+                        <div class="social-media-links">
+                          <i class="fab social fa-facebook accent"></i>
+                          <i class="fab social fa-linkedin accent"></i>
+                          <i class="fab social fa-twitter accent"></i>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </footer>
+       
+       
+      
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
